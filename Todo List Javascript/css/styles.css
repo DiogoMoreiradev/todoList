@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 98vh;
+    background-color: #169BE3;
+    
+}
+.container {
+    border: 1px solid black;
+    max-width: 450px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+button {
+    padding: 0.3rem;
+    cursor:pointer;
+    transition: 0.3s;
+   background-color: #fff;
+   border: 1px solid #102f5e;
+   margin-left: 0.5rem;
+   
+}
+button svg {
+    margin: 0 auto;
+}
+button:hover {
+    background-color: #102f5e;
+    color: #fff;
+}
+
+input {
+    height: 25px;
+    margin-bottom: .6em;
+    width: 190px;
+}
+header {
+    margin-bottom: 40px;
+    font-size: 40px;
+    border-bottom: 1px solid gray;
+    padding: 0 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#cancel-edit-btn {
+    margin-top: .3rem;
+}
+
+.hide {
+    display: none;
+}
+#search {
+   padding-right: 1rem;
+   margin-right: 1rem;
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: column;
+   border-right: 1px solid #B5C4D3;
+}
+#filter {
+    margin-top: .4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#filter select {
+    margin-left: 1rem;
+    margin-right: .6rem;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    transition: 0.3s;
+}   
+.todo h4 {
+    margin-right: 3rem;
+    flex: 1;
+}
+.done {
+    background-color: #395169;
+}
+.done h4 {
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
+}
+#toolbar {
+    display: flex;
+}
+.hidden {
+    display:none;
+}
